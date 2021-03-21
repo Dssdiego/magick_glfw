@@ -22,7 +22,7 @@ add_executable(magick_glfw
         engine/config.h
         engine/core.cpp
         engine/core.h
-        game/game.cpp game/game.h)
+        game/game.cpp game/game.h engine/input.cpp engine/input.h engine/input_defs.h)
 
 # Link target
 target_link_libraries(magick_glfw glfw OpenGL::GL)
