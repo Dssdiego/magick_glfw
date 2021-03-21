@@ -1,5 +1,5 @@
 //
-// Created by Diego Seabra on 20/03/2021.
+// Created by Diego Santos Seabra on 20/03/21.
 //
 
 #ifndef MAGICK_GLFW_GAME_H
@@ -7,14 +7,11 @@
 
 #pragma once
 
-#include <GLFW/glfw3.h>
-#include "../engine/config.h"
-
 namespace Game
 {
-    int init(Config &config);
-    bool shouldClose();
+    void init();
     void update();
+    void draw();
     void shutdown();
 }
 

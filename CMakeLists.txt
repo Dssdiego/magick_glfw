@@ -19,11 +19,10 @@ find_package(OpenGL REQUIRED)
 # Make executable
 add_executable(magick_glfw
         main.cpp
-        engine/config.cpp
         engine/config.h
-        game/game.cpp
-        game/game.h
-        )
+        engine/core.cpp
+        engine/core.h
+        game/game.cpp game/game.h)
 
 # Link target
 target_link_libraries(magick_glfw glfw OpenGL::GL)
