@@ -13,6 +13,7 @@
 namespace Core
 {
     int init(Config &config);
+    void setIcon();
     bool shouldClose();
     void update();
     void shutdown();
